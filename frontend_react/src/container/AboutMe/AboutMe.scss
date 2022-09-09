@@ -1,0 +1,140 @@
+.AboutMe__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center; 
+    
+    .AboutMe__img{
+        width: 350px;
+        border-radius: 1.5rem;
+        justify-self: center;
+    }
+    .AboutMe__data{
+
+    .AboutMe__description{
+        padding: 0 0 0 0;
+        margin-bottom: 2rem;  
+        justify-self: center;
+    }
+
+    .button{
+      display:inline-block;
+      padding:0.7rem 1.4rem;
+      margin:0 0.3rem 0.3rem 0;
+      border-radius:0.15rem;
+      box-sizing: border-box;
+      text-decoration:none;
+      font-family:'Roboto',sans-serif;
+      text-transform:uppercase;
+      font-weight:400;
+      color:#FFFFFF;
+      background-image: linear-gradient(to right, #F2994A 0%, #F2C94C  51%, #F2994A  100%);
+      box-shadow:inset 0 -0.6rem 0 -0.35rem rgba(0,0,0,0.17);
+      text-align:center;
+      position:relative;
+      }
+
+      .button:active{
+      top:0.1rem;
+      }
+
+
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+  
+  .AboutMe__container{
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+    
+  }
+
+  .AboutMe__img{
+    width:  220px;
+    
+  }
+  
+  .AboutMe__data{
+    text-align: center;
+  }
+
+  .AboutMe__description{
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .AboutMe__container{
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .AboutMe__img{
+    width:  110px;
+  }
+  
+  .AboutMe__data{
+    text-align: center;
+  }
+
+  .AboutMe__description{
+    padding: 0;
+  }
+}
+
+
+
+.app__about {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .app__profiles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .app__profile-item {
+    width: 190px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+  
+    img {
+      width: 100%;
+      height: 170px;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+  
+    @media screen and (min-width: 2000px) {
+      width: 370px;
+      margin: 2rem 4rem;
+  
+      img {
+        height: 320px;
+      }
+    }
+
+    
+  }
+
+
+ 
